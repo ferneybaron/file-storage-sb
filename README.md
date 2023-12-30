@@ -23,8 +23,8 @@ The `core` module contains the core components of the application.
 
 * Model: This folder holds the domain models or entities of the application. These models represent the core business concepts and encapsulate the data and behavior related to them.
 * Domain: This folder contains domain services that encapsulate complex business logic not fitting naturally within a specific entity. Domain services implement the business logic associated with each use case and orchestrate the interactions between the domain models, services, and repositories.
-* Service: This folder represents the application's use cases. The Use cases define the specific actions or tasks that the application can perform to fulfill user requirements. Each use case typically corresponds to a specific user goal or action.
-* Repo: The repositories layer provides an interface for interacting with the underlying data storage. They typically encapsulate operations related to CRUD (Create, Read, Update, Delete) operations.
+* Usecase: This folder represents the application's use cases. The Use cases define the specific actions or tasks that the application can perform to fulfill user requirements. Each use case typically corresponds to a specific user goal or action.
+* Repository: The repositories layer provides an interface for interacting with the underlying data storage. They typically encapsulate operations related to CRUD (Create, Read, Update, Delete) operations.
 
 ## Web Layer
 
